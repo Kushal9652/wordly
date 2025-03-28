@@ -1,0 +1,38 @@
+.button-loading {
+  background-color: #ccc;
+  cursor: not-allowed;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}
+
+.created-message {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
